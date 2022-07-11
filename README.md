@@ -1,3 +1,3 @@
 # Odyssey
 Space game
-![alt text](https://github.com/[StarLisik]/[Odyssey]/blob/[main]/1.jpg?raw=true)
+![Pic of the game](https://github.com/StarLisik/Odyssey/blob/main/1.jpg?raw=true)
