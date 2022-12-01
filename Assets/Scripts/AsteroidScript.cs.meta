@@ -1,17 +1,3 @@
-fileFormatVersion: 2
-guid: f69a82cc7e4bb2d4aad750c3e96b6e8b
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences:
-  - AsteroidExplosion: {fileID: 6594768278837630224, guid: ed9fb71ae06596e41ac24a99e493d31a,
-      type: 3}
-  - PlayerExplosion: {fileID: 7125723876925547882, guid: cd517105ef4a7d64c9eb26f9f0fed386,
-      type: 3}
-  - GameOver: {fileID: 4730229501351295461, guid: e555e12eb2af9274c8126e979bd3ea75,
-      type: 3}
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:a519ea1846b9ab1ccef7fd4ab0c8920180c56d48d865c4dc0c33a26d7d2c8e30
+size 553

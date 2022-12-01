@@ -1,13 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ShotScript : MonoBehaviour
-{
-    public float speed;
-    // Start is called before the first frame update
-    void Start()
-    {
-        GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 1) * speed;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:251e6c38e00be5042961d15eada23cbc5df5c69589f0d0042dbe97b8ae31b6b6
+size 321

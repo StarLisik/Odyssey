@@ -1,23 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class MusicScript : MonoBehaviour
-{
-    AudioSource Elektrotronomia;
-    private static MusicScript puk;
-    
-    public void Awake()
-    {
-        if (!puk)
-        {
-            puk = this;
-        }
-        else 
-        {
-            Destroy(this.gameObject);
-        }
-        DontDestroyOnLoad(this.gameObject);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:911ca9ed9452885d6c7c3bc10cf17a1b8de9cac27d76ebba532b8f145a12d491
+size 474

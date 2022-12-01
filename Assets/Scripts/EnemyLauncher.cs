@@ -1,25 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class EnemyLauncher : MonoBehaviour
-{
-
-    public GameObject Enemy;
-    public float MinDelay, MaxDelay;
-
-    float NextLaunch;
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Time.time > NextLaunch)
-        {
-            float size = transform.localScale.x;
-            float xPos = Random.Range(-size / 2, size / 2);
-            Vector3 EnemyPosition = new Vector3(xPos, 0, transform.position.z);
-            Instantiate(Enemy, EnemyPosition, Quaternion.identity);
-            NextLaunch = Time.time + Random.Range(MinDelay, MaxDelay);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aafaefe612b7187a5770a1a27d9dadd0638f1c04598249c2cfcd7b54deeb0b43
+size 699
